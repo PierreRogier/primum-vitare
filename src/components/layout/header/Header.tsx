@@ -9,12 +9,12 @@ const links = [
 		path: "/about",
 	},
 	{
-		title: "Articles",
-		path: "/blog",
-	},
-	{
 		title: "Nous contacter",
 		path: "/contact",
+	},
+	{
+		title: "Articles",
+		path: "/blog",
 	},
 ];
 
@@ -26,11 +26,11 @@ export const Header: FC<HeaderProps> = () => {
 		setOpen((prev) => !prev);
 	};
 	return (
-		<header className="sticky top-0 bg-white shadow-sm">
+		<header className="sticky top-0 bg-white shadow-sm z-50">
 			<nav className="relative container flex flex-wrap items-center justify-between px-2 py-4 mx-auto lg:justify-between xl:px-0">
 				{/* Logo */}
 				<div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
-					<Link href="/">
+					<Link href="/" scroll={true}>
 						<span className="flex items-center space-x-2 text-2xl font-medium text-green-500">
 							<span className="bg-green-500 rounded-md">
 								<Image
@@ -74,6 +74,7 @@ export const Header: FC<HeaderProps> = () => {
 						<>
 							{links.map((link, index) => (
 								<Link
+									scroll
 									key={index}
 									href={link.path}
 									className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md hover:text-green-500 focus:text-green-500 focus:bg-green-100 focus:outline-none"

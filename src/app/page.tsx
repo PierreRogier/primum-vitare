@@ -29,7 +29,7 @@ export default function Home() {
 				voluptatem corporis dignissimos ut ea? Ipsum reprehenderit velit quibusdam? Sequi
 				eaque soluta eos neque suscipit aspernatur excepturi vel, delectus dignissimos.
 			</SectionTitle>
-			<Video videoId="fAmvQ8C2SUo" />
+			<Video videoId="jE3FLPqGlmA" />
 		</Container>
 	);
 }

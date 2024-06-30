@@ -1,5 +1,6 @@
 import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
+import { GraduationCap, LineChart, Gem } from 'lucide-react';
 
 const Icon = () => {
 	return (
@@ -19,17 +20,17 @@ const benefitOne = {
 		{
 			title: "Améliorer la formation initiale et continue",
 			desc: "notamment sur la manière d'interagir avec les employeurs et les salariés ;",
-			icon: <Icon />,
+			icon: <GraduationCap />,
 		},
 		{
 			title: "Faire évoluer les postures",
 			desc: "être conseiller plutôt que « préconisateur du haut de sa science » dans un rapport de force implicite (se mettre à côté et non pas en face)",
-			icon: <Icon />,
+			icon: <LineChart />,
 		},
 		{
 			title: "Promouvoir l'expérimentation",
 			desc: "ainsi que l'évaluation des pratiques",
-			icon: <Icon />,
+			icon: <Gem />,
 		},
 	],
 };

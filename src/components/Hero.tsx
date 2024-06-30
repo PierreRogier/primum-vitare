@@ -21,7 +21,7 @@ export const Hero = () => {
 						<div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
 							<Link
 								href={"/contact"}
-								className="px-8 py-4 text-lg font-medium text-center text-white bg-green-500 rounded-md "
+								className="px-4 py-3 text-lg font-medium text-center text-white transition-all duration-500 bg-gradient-to-tl from-green-600 via-green-400 to-green-600 bg-size-200 bg-pos-0 hover:bg-pos-100 rounded-md"
 							>
 								Nous contacter
 							</Link>
