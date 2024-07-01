@@ -9,7 +9,7 @@ interface TransitionProps {
 
 export const Transition: FC<TransitionProps> = ({ children }) => {
 	return (
-		<main className="overflow-x-hidden">
+		<main className="overflow-x-hidden text-gray-700 min-h-screen mt-16">
 			<motion.div
 				initial={{ opacity: 0, x: "-100%" }}
 				animate={{ opacity: 1, x: 0 }}

@@ -1,19 +1,9 @@
 import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
-import { GraduationCap, LineChart, Gem } from 'lucide-react';
-
-const Icon = () => {
-	return (
-		<path
-			fillRule="evenodd"
-			clipRule="evenodd"
-			d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"
-		/>
-	);
-};
+import { GraduationCap, LineChart, Gem } from "lucide-react";
 
 const benefitOne = {
-	title: "A destination des professionnels de la santé au travail",
+	title: "Conseil et accompagnement des entreprises",
 	desc: "Conseils et formations pour mieux maitriser les RPS à destination des entreprises (dirigeants, managers, RH & salariés) et professionnels de la santé au travail.",
 	image: benefitOneImg,
 	bullets: [
@@ -43,17 +33,17 @@ const benefitTwo = {
 		{
 			title: "Se conformer à la lettre du code du travail ne suffit pas",
 			desc: "pour s'assurer de la bonne santé au travail des salariés… et pouvoir compter sur eux durablement",
-			icon: <Icon />,
+			icon: <GraduationCap />,
 		},
 		{
 			title: "Faire porter sur les salariés la responsabilité de la prévention des risques et de la prise en charge de leurs conséquences",
 			desc: "ne suffit pas (ex. accès à un nombre de consultation de psychologues)",
-			icon: <Icon />,
+			icon: <LineChart />,
 		},
 		{
 			title: "Adapter le management et l'organisation et former le personnel sur les modalités d'interactions",
 			desc: "pour les rendre moins délétères est plus coût-efficace pour contrôler les RPS, améliorer la santé des salariés, limiter l'absentéisme ou le présentéisme, et fluidifier les relations interpersonnelles.",
-			icon: <Icon />,
+			icon: <Gem />,
 		},
 	],
 };

@@ -9,10 +9,10 @@ export const Hero = () => {
 			<Container className="flex flex-wrap">
 				<div className="flex items-center w-full lg:w-1/2">
 					<div className="max-w-2xl mb-8">
-						<h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight">
+						<h1 className="text-4xl font-bold leading-snug tracking-tight lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight">
 							Primum Vitare
 						</h1>
-						<p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl">
+						<p className="py-5 text-xl leading-normal lg:text-xl xl:text-2xl">
 							Prendre soin des vôtres c'est aussi prendre soin de vous, Prendre soin
 							de vous, c'est aussi prendre soin des vôtres, Réussissez en prenant soin
 							de vous et des vôtres…
