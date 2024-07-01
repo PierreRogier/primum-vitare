@@ -1,11 +1,13 @@
-import benefitOneImg from "../../public/img/benefit-one.png";
-import benefitTwoImg from "../../public/img/benefit-two.png";
+import benefitOneImg from "../../public/img/entreprise.png";
+import benefitTwoImg from "../../public/img/particulier.png";
 import { GraduationCap, LineChart, Gem } from "lucide-react";
 
 const benefitOne = {
 	title: "Conseil et accompagnement des entreprises",
 	desc: "Conseils et formations pour mieux maitriser les RPS à destination des entreprises (dirigeants, managers, RH & salariés) et professionnels de la santé au travail.",
 	image: benefitOneImg,
+	linkLabel: "Nos services",
+	linkPath: "/entreprise",
 	bullets: [
 		{
 			title: "Améliorer la formation initiale et continue",
@@ -29,6 +31,8 @@ const benefitTwo = {
 	title: "A destination des dirigeants d'entreprise",
 	desc: "Diffuser des exemples d'interventions et d'améliorations de pratiques en entreprises",
 	image: benefitTwoImg,
+	linkLabel: "Nos services",
+	linkPath: "/particulier",
 	bullets: [
 		{
 			title: "Se conformer à la lettre du code du travail ne suffit pas",
